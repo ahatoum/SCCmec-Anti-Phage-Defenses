@@ -16,9 +16,9 @@ The script can be downloaded and run on any python environment that has the nece
 
 # DEMO
 
-The main script(s) are a collection of custom functions and classes that are meant to be used in an exploratory fashion. The concept of small dataset for demo is inapplicable. They are is written in a clear, standalone, linear fashion that makes the flow of the code best instructions of how to use it.
+The main script(s) are a collection of custom functions and classes that are meant to be used in an exploratory fashion. The concept of small dataset for demo is inapplicable. They are written in a clear, standalone, linear fashion that makes the flow of the code itself the best instructions of how to use it.
 
-The user can download the genomes that are listed in the manuscript (also on github: list_aureus.txt, list_epidermidis.txt) and use different parts of the script to analyze them.
+The user can download the genomes (full genbank files) that are listed in the manuscript (also here on github: list_aureus.txt, list_epidermidis.txt) and use different parts of the script to analyze them.
 
 # INSTRUCTIONS FOR USE
 
