@@ -10,6 +10,11 @@ The main script depends on several standard and third-party packages. The primar
 
 Other software tools required (e.g. hmmer, samtools, bowtie2, etc) are listed in the main manuscript along with their versions.
 
+Furthermore, macsyfinder and defense-finder can be found here: 
+
+- https://github.com/gem-pasteur/macsyfinder
+- https://github.com/mdmparis/defense-finder
+
 # INSTALLATION GUIDE
 
 The script can be downloaded and run on any python environment that has the necessary python packages pre-installed. mdm_df.zip must be unzipped and placed in the same directory as the script.
@@ -24,8 +29,8 @@ The user can download the genomes (full genbank files) that are listed in the ma
 
 The `SnailAnalyzerFull` class is the core of the pipeline, orchestrating a multi-step analysis that generates the polar plot and other results. Once properly initialized as an instance of the class, it is meant to be run sequentially, step by step, as the names of the methods suggest.
 
-1. First generate a json file that looks like the example at the end of this read me file
-2. Create a "accession_list.txt" file that contains the accession numbers of the genomes you want to analyze, and place it in the directory specified in the json file.
+1. First generate a json file that looks like the example at the end of this README file
+2. Create a "accession_list.txt" file (i.e. list_aureus.txt, list_epidermidis.txt. They need to be renamed to accession_list.txt) that contains the accession numbers of the genomes you want to analyze, and place it in the directory specified in the json file.
 
 An example would be to append the following at the end of the main script, and run it by enabling the desired steps (i.e. uncommenting them):
 
