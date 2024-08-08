@@ -17,13 +17,15 @@ Furthermore, macsyfinder and defense-finder can be found here:
 
 # INSTALLATION GUIDE
 
-The script can be downloaded and run on any python environment that has the necessary python packages pre-installed. mdm_df.zip must be unzipped and placed in the same directory as the script.
+No installation necessary. The script can be downloaded and run on any python environment that has the necessary python packages pre-installed. However, mdm_df.zip must be unzipped and placed in the same directory as the script.
 
 # DEMO
 
 The main script(s) are a collection of custom functions and classes that are meant to be used in an exploratory fashion. The concept of small dataset for demo is inapplicable. They are written in a clear, standalone, linear fashion that makes the flow of the code itself the best instructions of how to use it.
 
-The user can download the genomes (full genbank files) that are listed in the manuscript (also here on github: list_aureus.txt, list_epidermidis.txt) and use different parts of the script to analyze them.
+For demo, the user can download one or both the genome file collections (full genbank files) that are listed in the manuscript (also here on github: list_aureus.txt, list_epidermidis.txt) and follow the instructions below to analyze them. The expected outputs should match the results in the manuscript. 
+
+Some steps of the pipeline can take a few hours depending on the system.
 
 # INSTRUCTIONS FOR USE
 
