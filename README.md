@@ -59,7 +59,7 @@ if __name__ == "__main__":
     # SA.step9_plot_snail_diagram()
 ```
 
-# Appendix: Example JSON file
+# Example JSON file
 
 ```json
 {
